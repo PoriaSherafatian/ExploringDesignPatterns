@@ -6,6 +6,7 @@ This project contains implementations of various design patterns in Java, create
 Available Design Patterns:
 Factory
 Abstract Factory
+and etc....
 
 How to Run:
 Clone or download the project.
@@ -24,6 +25,7 @@ The purpose of this project is to share knowledge and skills about design patter
 الگوهای طراحی موجود
 Factory (فکتوری)
 Abstract Factory (کارخانه انتزاعی)
+و غیره...
 
 نحوه اجرا:
 ۱. پروژه را کلون (Clone) کنید یا فایل‌ها را دانلود کنید.
