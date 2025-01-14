@@ -3,19 +3,23 @@ package dev.poria.ObserverDesignPattern;
 public class Demo {
     public static void main(String[] args) {
 
-        NewsNetwork newsNetwork = new NewsNetwork();
+        Channel channel = new Channel();
 
-        Channel tv = new Tv();
-        Channel radio = new Radio();
+        Subscriber poria = new Poria();
+        Subscriber dorsa =  new Dorsa();
 
-        newsNetwork.attach(tv);
-        newsNetwork.attach(radio);
+        channel.attach(poria);
+        channel.attach(dorsa);
 
-        newsNetwork.setNews("Test 1 for attach...");
+        channel.setNotification("Test1 for attach...");
 
-        System.out.println("-----------");
+        System.out.println("----------------------------");
 
-        newsNetwork.detach(radio);
-        newsNetwork.setNews("Test 2 for detach...");
+        channel.detach(poria);
+        channel.setNotification("Test2 for detach...");
+
+
+
+
     }
 }
